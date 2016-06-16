@@ -8,7 +8,7 @@ const parse = require('csv').parse
 
 const s3 = new aws.S3({ apiVersion: '2006-03-01' })
 
-const METRIC_NAME = 'aws.cost'
+const METRIC_NAME = 'yojimbo.aws.cost'
 
 dogapi.initialize({
   api_key: '9e14d243dcebd8c4244574c8fd223659',
